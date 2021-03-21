@@ -9,7 +9,6 @@ app.get("/", function(req, res){
   res.sendFile(__dirname + "/index.html");
 });
 
-
 app.post("/", function(req, res) {
   var n1 = Number(req.body.n1);
   var n2 = Numebr(req.body.n2);
